@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-import UploadFiles from './components/UploadFiles';
+import Upload from './components/upload/Upload';
 
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -10,7 +10,7 @@ function App() {
     <Container className="App">
       <Row style={{ height: "75vh", paddingTop: "60px" }} className="valign-wrapper">
         <Col>
-          <UploadFiles />
+          <Upload />
         </Col>
       </Row>
     </Container>
