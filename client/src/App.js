@@ -3,11 +3,17 @@ import './App.css';
 
 import UploadFiles from './components/UploadFiles';
 
+import { Container, Row, Col } from "react-bootstrap";
+
 function App() {
   return (
-    <div className="App">
-      <UploadFiles />
-    </div>
+    <Container className="App">
+      <Row style={{ height: "75vh", paddingTop: "60px" }} className="valign-wrapper">
+        <Col>
+          <UploadFiles />
+        </Col>
+      </Row>
+    </Container>
   );
 }
 
